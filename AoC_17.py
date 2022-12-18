@@ -7,7 +7,6 @@ file = r'C:\Users\asdf\AoC22\Inputs\Input_17.txt'
 with open(file) as f:
     data = f.read()
 
-global stopped_set, max_hight
 stopped_set = {(0+i, 0) for i in range(7)}
 max_hight = 0
 

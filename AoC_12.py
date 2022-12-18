@@ -58,7 +58,7 @@ while not goal_found:
                 steps[new_x, new_y] = steps[x, y] + 1
                 if data[new_x, new_y] == 'a':
                     print(steps[x, y] + 1)
-                    exit(0)
+                    exit()
                 new_list.append((new_x, new_y))
 
     current_list = new_list
