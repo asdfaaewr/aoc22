@@ -8,7 +8,6 @@ a_ = []
 for line in data: 
     a_ += [int(line)] 
 
-#a_ = [1,2,-3,3,-2,0,4]
 a_ = np.array(a_, np.longlong) * 811589153
 a = [i for i in range(len(a_))]
 s = len(a)
@@ -29,8 +28,6 @@ for _ in range(10):
         else:
             t = t[0:idx + offset] + [t[idx]] + t[idx + offset: idx] + t[idx + 1:]
 
-    #print(len(t), idx, offset, c, a[n])
-#print(t)
 
 arr_out = np.array(a_)[np.array(t)]
 idx_out = np.where(arr_out==0)[0][0]
