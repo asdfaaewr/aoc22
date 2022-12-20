@@ -2,7 +2,7 @@ import numpy as np
 file = r'C:\Users\asdf\AoC22\Inputs\Input_20.txt'
 
 with open(file) as f:
-    data = f.readlines()
+    data = f.readlines() 
 
 a_ = []
 for line in data: 
