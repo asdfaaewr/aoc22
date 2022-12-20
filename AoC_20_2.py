@@ -6,7 +6,7 @@ with open(file) as f:
 
 a_ = []
 for line in data: 
-    a_ += [int(line)]
+    a_ += [int(line)] 
 
 #a_ = [1,2,-3,3,-2,0,4]
 a_ = np.array(a_, np.longlong) * 811589153
